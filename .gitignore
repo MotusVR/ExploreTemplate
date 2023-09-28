@@ -77,3 +77,6 @@ Plugins/*
 !Plugins/OnlineSubsystemPico
 !Plugins/PICOEnterprise
 !Plugins/PicoXR
+
+!# Compiled Dynamic libraries not for pico
+!Plugins/**/*.so
