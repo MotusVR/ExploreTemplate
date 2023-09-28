@@ -9,7 +9,6 @@
 #include "Engine/EngineBaseTypes.h"
 #include "IPXR_MRCModule.h"
 #include "PXR_Log.h"
-#include  "IXRTrackingSystem.h"
 
 const int MRCSupportVersion = 0x2000300;
 

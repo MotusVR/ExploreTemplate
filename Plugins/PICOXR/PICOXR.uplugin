@@ -11,8 +11,10 @@
 	"MarketplaceURL": "https://publish.unrealengine.com/v3/edit-product/7932d7fc2aad4216b1b01644950f6fcc",
 	"SupportURL": "https://developer-global.pico-interactive.com/",
 	"EngineVersion": "5.1.0",
+	"EnabledByDefault": false,
 	"CanContainContent": true,
-	"Installed": true,
+	"IsBetaVersion": false,
+	"Installed": false,
 	"SupportedTargetPlatforms": [
 		"Win64",
 		"Android"
@@ -49,7 +51,7 @@
 			"Name": "PICOXREyeTracker",
 			"Type": "Runtime",
 			"LoadingPhase": "PreDefault",
-			"PlatformAllowList": [
+			"WhitelistPlatforms": [
 				"Win64",
 				"Android"
 			]
@@ -58,7 +60,7 @@
 			"Name": "PICOXRMotionTracking",
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
-			"PlatformAllowList": [
+			"WhitelistPlatforms": [
 				"Win64",
 				"Android"
 			]
@@ -75,7 +77,7 @@
 			"Name": "PICOXRMR",
 			"Type": "Runtime",
 			"LoadingPhase": "PostEngineInit",
-			"PlatformAllowList": [
+			"WhitelistPlatforms": [
 				"Win64",
 				"Android"
 			]
